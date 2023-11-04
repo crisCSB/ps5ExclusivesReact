@@ -1,0 +1,28 @@
+.customCard{
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: auto;
+    margin-bottom: 40px;
+    padding: 20px;
+}
+
+.thisImage1{
+    width: 100%;
+    height: 100%;
+    border-radius: 17px;
+}
+
+.carContent{
+    padding-left: 20px;
+}
+
+@media (max-width:600px){
+    .customCard{
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+
+    .nor{
+        margin-bottom: 40px;
+    }
+}

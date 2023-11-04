@@ -1,0 +1,28 @@
+.customCardInverted{
+    display: grid;
+    grid-template-columns: 1fr 200px;
+    grid-template-rows: auto;
+    padding: 20px;
+}
+
+.carContent{
+    padding-right: 20px;
+}
+
+
+.thisImage2{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+@media (max-width:600px){
+    .customCardInverted{
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+    .rev{
+        order: -1;
+        margin-bottom: 40px;
+    }
+}

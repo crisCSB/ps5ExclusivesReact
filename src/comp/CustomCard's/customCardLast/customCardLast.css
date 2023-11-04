@@ -1,0 +1,25 @@
+
+
+.circle{
+    width: 200px;
+    height: 200px;
+}
+
+.des{
+    width: 700px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    margin-bottom: 120px;
+}
+
+@media (max-width:700px){
+    .circleCard{
+        grid-template-columns: 1fr;
+    }
+
+    .des{
+        width: auto;
+    }
+}
